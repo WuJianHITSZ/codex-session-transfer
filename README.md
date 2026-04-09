@@ -4,7 +4,11 @@
 
 `skill-codex-session-transfer` is the public GitHub repository for the `codex-session-transfer` Codex skill.
 
-The skill helps you package, install, re-home, and roll back local Codex Desktop session migrations.
+As AI becomes more deeply integrated into traditional workflows, conversations with AI agents are turning into a new kind of asset. They capture task history, operational context, debugging paths, intermediate decisions, and reusable procedural knowledge. In practice, those session histories are becoming a new form of operational data.
+
+The problem is that this data is often tightly bound to the local host environment where it was created. Session transcripts, local indexes, SQLite metadata, writable roots, skill dependencies, and project paths are all entangled with one machine's Codex state. As a result, moving session assets between machines comes with significant friction.
+
+`codex-session-transfer` was developed to reduce that migration friction. It packages the minimum working set needed for session portability, localizes machine-specific paths on the destination side, and preserves enough supporting state to let imported sessions appear, open, and keep working inside Codex Desktop.
 
 ## What It Does
 
@@ -38,7 +42,7 @@ skill-codex-session-transfer/
   README.md
   README.zh-CN.md
   PUBLISHING.md
-  LICENSE-DECISION.md
+  LICENSE
   .gitignore
 ```
 
@@ -71,7 +75,6 @@ It does not yet migrate:
 - `state_5.sqlite.stage1_outputs`
 - `.codex-global-state.json`
 
-## Notes
+## License
 
-- The repository is prepared for public GitHub distribution.
-- A final open-source license still needs to be chosen. See [LICENSE-DECISION.md](./LICENSE-DECISION.md).
+This repository is released under the [MIT License](./LICENSE).

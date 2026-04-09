@@ -4,7 +4,11 @@
 
 `skill-codex-session-transfer` 是 `codex-session-transfer` 这个 Codex 技能的公开 GitHub 仓库。
 
-这个技能用于打包、安装、重挂靠以及回滚本地 Codex Desktop 会话迁移。
+随着 AI 越来越深地集成进传统工作流，与 AI agent 的会话正在逐渐变成一种新型资产。它们沉淀了任务历史、运行上下文、调试路径、中间决策，以及可复用的过程性知识。从工程实践上看，这些会话历史正在演化成一种新的业务数据或操作数据。
+
+问题在于，这类数据往往与创建它的本地主机环境深度绑定。会话 transcript、本地索引、SQLite 元数据、可写根目录、技能依赖以及项目路径，都会和某一台机器上的 Codex 状态纠缠在一起。因此，不同宿主机之间迁移会话资产时，往往会遇到很大的摩擦。
+
+`codex-session-transfer` 正是为降低这种迁移摩擦而开发的。它会打包会话可移植所需的最小工作集，在目标端完成与机器相关路径的本地化，并保留足够的支撑状态，使导入后的会话能够在 Codex Desktop 中正常显示、打开，并继续工作。
 
 ## 它能做什么
 
@@ -38,7 +42,7 @@ skill-codex-session-transfer/
   README.md
   README.zh-CN.md
   PUBLISHING.md
-  LICENSE-DECISION.md
+  LICENSE
   .gitignore
 ```
 
@@ -71,7 +75,6 @@ skill-codex-session-transfer/
 - `state_5.sqlite.stage1_outputs`
 - `.codex-global-state.json`
 
-## 说明
+## 许可证
 
-- 这个仓库已经按公开 GitHub 发布的方向整理。
-- 最终仍需要补一个正式的开源许可证，见 [LICENSE-DECISION.md](./LICENSE-DECISION.md)。
+本仓库采用 [MIT License](./LICENSE)。
