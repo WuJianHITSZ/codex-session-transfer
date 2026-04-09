@@ -1,12 +1,12 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-# skill-codex-session-transfer
+# codex-session-transfer
 
-`skill-codex-session-transfer` 是 `codex-session-transfer` 这个 Codex 技能的公开 GitHub 仓库。
+`codex-session-transfer` 是 `codex-session-transfer` 这个 Codex 技能的公开 GitHub 仓库。
 
 随着 AI 越来越深地集成进传统工作流，与 AI agent 的会话正在逐渐变成一种新型资产。它们沉淀了任务历史、运行上下文、调试路径、中间决策，以及可复用的过程性知识。从工程实践上看，这些会话历史正在演化成一种新的业务数据或操作数据。
 
-问题在于，这类数据往往与创建它的本地主机环境深度绑定。会话 transcript、本地索引、SQLite 元数据、可写根目录、技能依赖以及项目路径，都会和某一台机器上的 Codex 状态纠缠在一起。因此，不同宿主机之间迁移会话资产时，往往会遇到很大的摩擦。
+问题在于，这类数据往往与创建它的本地主机环境深度绑定。会话 transcript、本地索引、SQLite 元数据、可写根目录、技能依赖以又项目路径，都会和某一台机器上的 Codex 状态纠缠在一起。因此，不同宿主机之间迁移会话资产时，往往会遇到很大的摩擦。
 
 `codex-session-transfer` 正是为降低这种迁移摩擦而开发的。它会打包会话可移植所需的最小工作集，在目标端完成与机器相关路径的本地化，并保留足够的支撑状态，使导入后的会话能够在 Codex Desktop 中正常显示、打开，并继续工作。
 
@@ -20,9 +20,7 @@
 
 ## 技能名与仓库名
 
-GitHub 仓库名是 `skill-codex-session-transfer`。
-
-真正的可安装 Codex 技能名仍然是 `codex-session-transfer`，这个名字定义在 [SKILL.md](./SKILL.md) 中。安装到 Codex 时，目标目录应为：
+GitHub 仓库名与可安装的技能名统一为 `codex-session-transfer`，这个名字定义在 [SKILL.md](./SKILL.md) 中。安装到 Codex 时，目标目录应为：
 
 ```text
 ~/.codex/skills/codex-session-transfer/
@@ -31,7 +29,7 @@ GitHub 仓库名是 `skill-codex-session-transfer`。
 ## 仓库结构
 
 ```text
-skill-codex-session-transfer/
+codex-session-transfer/
   SKILL.md
   agents/
     openai.yaml
@@ -68,7 +66,7 @@ skill-codex-session-transfer/
 - 用户自定义技能
 - 所需的空目录骨架
 
-暂时还不迁移：
+梂时还不迁移：
 
 - `logs_1.sqlite`
 - `state_5.sqlite.logs`

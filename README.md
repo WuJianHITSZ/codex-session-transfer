@@ -1,8 +1,8 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-# skill-codex-session-transfer
+# codex-session-transfer
 
-`skill-codex-session-transfer` is the public GitHub repository for the `codex-session-transfer` Codex skill.
+`codex-session-transfer` is the public GitHub repository for the `codex-session-transfer` Codex skill.
 
 As AI becomes more deeply integrated into traditional workflows, conversations with AI agents are turning into a new kind of asset. They capture task history, operational context, debugging paths, intermediate decisions, and reusable procedural knowledge. In practice, those session histories are becoming a new form of operational data.
 
@@ -20,9 +20,7 @@ The problem is that this data is often tightly bound to the local host environme
 
 ## Skill Name vs Repository Name
 
-The GitHub repository is named `skill-codex-session-transfer`.
-
-The installable Codex skill name remains `codex-session-transfer`, as defined in [SKILL.md](./SKILL.md). When you install it into Codex, place the folder at:
+The GitHub repository and the installable skill both use the name `codex-session-transfer`, as defined in [SKILL.md](./SKILL.md). When you install it into Codex, place the folder at:
 
 ```text
 ~/.codex/skills/codex-session-transfer/
@@ -31,7 +29,7 @@ The installable Codex skill name remains `codex-session-transfer`, as defined in
 ## Repository Layout
 
 ```text
-skill-codex-session-transfer/
+codex-session-transfer/
   SKILL.md
   agents/
     openai.yaml
