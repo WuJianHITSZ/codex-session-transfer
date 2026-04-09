@@ -2,7 +2,7 @@
 
 # codex-session-transfer
 
-`codex-session-transfer` is the public GitHub repository for the `codex-session-transfer` Codex skill.
+This repository publishes `codex-session-transfer`, an open-source Codex skill for packaging, migrating, localizing, and rolling back Codex Desktop sessions.
 
 As AI becomes more deeply integrated into traditional workflows, conversations with AI agents are turning into a new kind of asset. They capture task history, operational context, debugging paths, intermediate decisions, and reusable procedural knowledge. In practice, those session histories are becoming a new form of operational data.
 
