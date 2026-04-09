@@ -1,21 +1,33 @@
-# codex-session-transfer
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
-`codex-session-transfer` is a Codex skill for packaging, installing, re-homing, and rolling back local Codex Desktop session migrations.
+# skill-codex-session-transfer
 
-This repository-stage copy is prepared for public GitHub publication. The installable skill content remains at the repository root so the folder can still be copied directly into `~/.codex/skills/codex-session-transfer/`.
+`skill-codex-session-transfer` is the public GitHub repository for the `codex-session-transfer` Codex skill.
 
-## What This Skill Does
+The skill helps you package, install, re-home, and roll back local Codex Desktop session migrations.
 
-- Packages the first-phase minimum working set for selected Codex sessions
-- Installs a session skill package onto another Codex Desktop environment
-- Localizes working-directory paths for the destination machine
-- Records transaction logs and backups for safe rollback
-- Lists migration transactions and rolls them back when needed
+## What It Does
+
+- Package the first-phase minimum working set for selected Codex sessions
+- Install a session skill package onto another Codex Desktop environment
+- Localize working-directory paths for the destination machine
+- Record transaction logs and backups for safe rollback
+- List migration transactions and roll them back when needed
+
+## Skill Name vs Repository Name
+
+The GitHub repository is named `skill-codex-session-transfer`.
+
+The installable Codex skill name remains `codex-session-transfer`, as defined in [SKILL.md](./SKILL.md). When you install it into Codex, place the folder at:
+
+```text
+~/.codex/skills/codex-session-transfer/
+```
 
 ## Repository Layout
 
 ```text
-codex-session-transfer/
+skill-codex-session-transfer/
   SKILL.md
   agents/
     openai.yaml
@@ -24,24 +36,15 @@ codex-session-transfer/
   scripts/
     install_session_skill_package.py
   README.md
+  README.zh-CN.md
   PUBLISHING.md
   LICENSE-DECISION.md
   .gitignore
 ```
 
-## Installation Into Codex
-
-Copy this directory into your local Codex skills directory as:
-
-```text
-~/.codex/skills/codex-session-transfer/
-```
-
-The required skill entrypoint is [SKILL.md](./SKILL.md).
-
 ## Primary Workflow
 
-The skill exposes one lifecycle with four actions:
+This skill provides one migration lifecycle with four actions:
 
 - `packup`
 - `install`
@@ -50,9 +53,9 @@ The skill exposes one lifecycle with four actions:
 
 The main implementation lives in [scripts/install_session_skill_package.py](./scripts/install_session_skill_package.py).
 
-## Scope
+## Current Scope
 
-This version focuses on the first-phase minimum working set:
+This repository currently focuses on the first-phase minimum working set:
 
 - rollout `jsonl` files
 - `threads`
@@ -61,13 +64,14 @@ This version focuses on the first-phase minimum working set:
 - user-defined skills
 - required empty directory skeletons
 
-It intentionally does not yet migrate:
+It does not yet migrate:
 
 - `logs_1.sqlite`
 - `state_5.sqlite.logs`
 - `state_5.sqlite.stage1_outputs`
 - `.codex-global-state.json`
 
-## Publishing Notes
+## Notes
 
-This copy is prepared for GitHub publication, but one important repository decision is still intentionally left to the maintainer: choose a public license before publishing. See [LICENSE-DECISION.md](./LICENSE-DECISION.md).
+- The repository is prepared for public GitHub distribution.
+- A final open-source license still needs to be chosen. See [LICENSE-DECISION.md](./LICENSE-DECISION.md).
