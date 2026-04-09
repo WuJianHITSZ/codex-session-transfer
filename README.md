@@ -12,6 +12,30 @@ The problem is that this data is often tightly bound to the local host environme
 
 This kind of capability becomes increasingly useful in several practical scenarios: collaborative teams that want to hand off AI-assisted work across different machines, individual users who want to consolidate long-running AI session histories, hardware refresh or workstation replacement, reproducible research and engineering workflows, and broader forms of context migration where the value lies not just in files, but in the preserved decision trail around those files.
 
+## Workflow at a Glance
+
+![Session transfer workflow overview](./assets/flow-visuals/workflow-overview.svg)
+
+### Step 1. Package on Host A
+
+![Step 1 package on Host A](./assets/flow-visuals/step-1-package.svg)
+
+### Step 2. Transfer the Package
+
+![Step 2 transfer the package](./assets/flow-visuals/step-2-transfer.svg)
+
+### Step 3. Install and Localize on Host B
+
+![Step 3 install and localize on Host B](./assets/flow-visuals/step-3-install.svg)
+
+### Step 4. Roll Back on Host B
+
+![Step 4 rollback on Host B](./assets/flow-visuals/step-4-rollback.svg)
+
+### Step 5. Restore from Logged States
+
+![Step 5 restore from logged states](./assets/flow-visuals/step-5-logged-states.svg)
+
 ## What It Does
 
 - Package the first-phase minimum working set for selected Codex sessions

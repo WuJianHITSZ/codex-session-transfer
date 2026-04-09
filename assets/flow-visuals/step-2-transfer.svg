@@ -1,0 +1,31 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#FFF9F0"/>
+  <circle cx="170" cy="110" r="84" fill="#D8E8FF"/>
+  <circle cx="1022" cy="592" r="110" fill="#FFE4CF"/>
+  <text x="72" y="94" fill="#1C355B" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Step 2. Transfer the Package to Host B</text>
+  <text x="72" y="130" fill="#617693" font-family="Segoe UI, Arial, sans-serif" font-size="18">Move the migration package between machines using any transport channel you trust.</text>
+
+  <rect x="96" y="220" width="276" height="250" rx="28" fill="#FFFFFF"/>
+  <rect x="150" y="288" width="116" height="92" rx="16" fill="#F2B35D"/>
+  <path d="M150 310H266" stroke="#A96A25" stroke-width="6"/>
+  <text x="134" y="432" fill="#243D66" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Package Ready</text>
+  <text x="134" y="458" fill="#657B97" font-family="Segoe UI, Arial, sans-serif" font-size="16">Host A exports the bundle</text>
+
+  <path d="M404 345H800" stroke="#4E78B2" stroke-width="12" stroke-linecap="round" stroke-dasharray="14 16"/>
+  <path d="M758 302L852 345L758 388" stroke="#4E78B2" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="534" cy="345" r="22" fill="#E8F2FF"/>
+  <text x="523" y="353" fill="#4E78B2" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">1</text>
+  <circle cx="652" cy="345" r="22" fill="#E8F2FF"/>
+  <text x="641" y="353" fill="#4E78B2" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">2</text>
+  <circle cx="770" cy="345" r="22" fill="#E8F2FF"/>
+  <text x="759" y="353" fill="#4E78B2" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">3</text>
+
+  <rect x="830" y="220" width="276" height="250" rx="28" fill="#FFFFFF"/>
+  <rect x="890" y="280" width="118" height="98" rx="18" fill="#E8F3FF"/>
+  <rect x="912" y="302" width="74" height="54" rx="8" fill="#8FB7F4"/>
+  <text x="868" y="432" fill="#243D66" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Host B Receives</text>
+  <text x="868" y="458" fill="#657B97" font-family="Segoe UI, Arial, sans-serif" font-size="16">The package is ready to install</text>
+
+  <rect x="128" y="536" width="944" height="84" rx="22" fill="#FFFFFF"/>
+  <text x="160" y="586" fill="#5B7290" font-family="Segoe UI, Arial, sans-serif" font-size="18">Examples: local copy, cloud sync, external drive, team handoff, or controlled environment transfer.</text>
+</svg>

@@ -12,6 +12,30 @@
 
 这种能力在不少实际场景中都会越来越有价值，比如团队协作中跨机器交接 AI 辅助工作、个人对长期积累的 AI 历史会话进行整合、硬件升级或工作站更换、需要可复现上下文的科研与工程流程，以及更广义上的上下文迁移场景。在这些场景里，真正有价值的往往不只是文件本身，还包括围绕文件产生的决策轨迹与工作历史。
 
+## 工作流总览
+
+![会话迁移工作流总览](./assets/flow-visuals/workflow-overview.svg)
+
+### 第一步：在主机 A 上打包
+
+![第一步 在主机 A 上打包](./assets/flow-visuals/step-1-package.svg)
+
+### 第二步：转移迁移包
+
+![第二步 转移迁移包](./assets/flow-visuals/step-2-transfer.svg)
+
+### 第三步：在主机 B 上安装并本地化
+
+![第三步 在主机 B 上安装并本地化](./assets/flow-visuals/step-3-install.svg)
+
+### 第四步：在主机 B 上回滚
+
+![第四步 在主机 B 上回滚](./assets/flow-visuals/step-4-rollback.svg)
+
+### 第五步：从日志状态恢复
+
+![第五步 从日志状态恢复](./assets/flow-visuals/step-5-logged-states.svg)
+
 ## 它能做什么
 
 - 为指定 Codex 会话打包第一阶段“最小可工作集”

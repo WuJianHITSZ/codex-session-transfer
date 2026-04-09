@@ -1,0 +1,28 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#FFF7F7"/>
+  <circle cx="1040" cy="116" r="92" fill="#FFE6E6"/>
+  <circle cx="182" cy="596" r="108" fill="#E8F1FF"/>
+  <text x="72" y="94" fill="#1C355B" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Step 4. Roll Back on Host B</text>
+  <text x="72" y="130" fill="#617693" font-family="Segoe UI, Arial, sans-serif" font-size="18">If needed, remove imported effects and restore the Codex environment on Host B to its earlier state.</text>
+
+  <rect x="92" y="204" width="420" height="322" rx="30" fill="#FFFFFF"/>
+  <rect x="136" y="254" width="150" height="120" rx="18" fill="#E8F1FF"/>
+  <rect x="156" y="274" width="110" height="80" rx="10" fill="#95BDF4"/>
+  <rect x="322" y="252" width="132" height="124" rx="18" fill="#FFF2E6"/>
+  <path d="M348 314C348 284 384 268 408 288C426 304 426 332 408 348C384 368 348 352 348 322" stroke="#E67852" stroke-width="10" stroke-linecap="round"/>
+  <path d="M348 298L324 318L348 338" stroke="#E67852" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="430" fill="#243D66" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Imported State</text>
+  <text x="132" y="458" fill="#657B97" font-family="Segoe UI, Arial, sans-serif" font-size="16">Rollback removes or restores</text>
+  <text x="132" y="480" fill="#657B97" font-family="Segoe UI, Arial, sans-serif" font-size="16">what the migration changed.</text>
+
+  <path d="M548 364H666" stroke="#B45A64" stroke-width="10" stroke-linecap="round"/>
+  <path d="M572 338L518 364L572 390" stroke="#B45A64" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="688" y="204" width="420" height="322" rx="30" fill="#FFFFFF"/>
+  <rect x="760" y="252" width="270" height="140" rx="20" fill="#F4F8FF"/>
+  <path d="M790 286H996" stroke="#89A8D7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M790 322H966" stroke="#89A8D7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M790 358H934" stroke="#89A8D7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M760 438H1028" stroke="#2AA36B" stroke-width="10" stroke-linecap="round"/>
+  <text x="752" y="470" fill="#2D6F4D" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Back to pre-migration state</text>
+</svg>

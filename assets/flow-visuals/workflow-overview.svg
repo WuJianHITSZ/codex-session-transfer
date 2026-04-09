@@ -1,0 +1,118 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F8FF"/>
+      <stop offset="1" stop-color="#FFF6E8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="260" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FBFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="300" height="220" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#10213A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10V0Z" fill="#5678A9"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="760" rx="32" fill="url(#bg)"/>
+  <circle cx="1230" cy="92" r="84" fill="#FFE3B3" opacity="0.55"/>
+  <circle cx="170" cy="650" r="118" fill="#D8E8FF" opacity="0.65"/>
+  <circle cx="768" cy="100" r="58" fill="#E5F7EC" opacity="0.8"/>
+
+  <text x="80" y="92" fill="#17325C" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Session Transfer Workflow</text>
+  <text x="80" y="130" fill="#4E6486" font-family="Segoe UI, Arial, sans-serif" font-size="18">From packaging on Host A to install, rollback, and logged restore points on Host B</text>
+
+  <g transform="translate(80 184)" filter="url(#shadow)">
+    <rect width="240" height="190" rx="26" fill="url(#card)"/>
+    <circle cx="48" cy="44" r="22" fill="#183153"/>
+    <text x="41" y="51" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">1</text>
+    <rect x="34" y="82" width="84" height="60" rx="10" fill="#233F6B"/>
+    <rect x="44" y="92" width="64" height="40" rx="6" fill="#D5E8FF"/>
+    <path d="M144 110H194" stroke="#33598F" stroke-width="10" stroke-linecap="round"/>
+    <rect x="156" y="88" width="44" height="44" rx="8" fill="#F2B35D"/>
+    <path d="M156 102H200" stroke="#9A6120" stroke-width="4"/>
+    <text x="34" y="164" fill="#1F355A" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Pack on Host A</text>
+    <text x="34" y="188" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">Collect sessions, metadata,</text>
+    <text x="34" y="206" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">skills, and skeleton paths</text>
+  </g>
+
+  <g transform="translate(348 184)" filter="url(#shadow)">
+    <rect width="240" height="190" rx="26" fill="url(#card)"/>
+    <circle cx="48" cy="44" r="22" fill="#183153"/>
+    <text x="41" y="51" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">2</text>
+    <rect x="36" y="88" width="58" height="44" rx="10" fill="#F2B35D"/>
+    <path d="M94 110H148" stroke="#4E81C8" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <rect x="154" y="82" width="54" height="56" rx="14" fill="#E5F1FF"/>
+    <rect x="164" y="92" width="34" height="36" rx="6" fill="#95C0FF"/>
+    <text x="34" y="164" fill="#1F355A" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Move Package</text>
+    <text x="34" y="188" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">Transfer the bundle from</text>
+    <text x="34" y="206" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">Host A to Host B</text>
+  </g>
+
+  <g transform="translate(616 184)" filter="url(#shadow)">
+    <rect width="240" height="190" rx="26" fill="url(#card)"/>
+    <circle cx="48" cy="44" r="22" fill="#183153"/>
+    <text x="41" y="51" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">3</text>
+    <rect x="30" y="82" width="94" height="60" rx="10" fill="#243E68"/>
+    <rect x="40" y="92" width="74" height="40" rx="6" fill="#DDEEFF"/>
+    <rect x="142" y="82" width="66" height="60" rx="16" fill="#E7F8EE"/>
+    <path d="M156 112L171 126L196 96" stroke="#2AA36B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="34" y="164" fill="#1F355A" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Install on Host B</text>
+    <text x="34" y="188" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">Trigger the skill, copy state,</text>
+    <text x="34" y="206" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">and localize target paths</text>
+  </g>
+
+  <g transform="translate(884 184)" filter="url(#shadow)">
+    <rect width="240" height="190" rx="26" fill="url(#card)"/>
+    <circle cx="48" cy="44" r="22" fill="#183153"/>
+    <text x="41" y="51" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">4</text>
+    <rect x="36" y="82" width="80" height="60" rx="10" fill="#2B466F"/>
+    <path d="M150 112C150 92 174 82 190 96C202 106 202 124 190 134C174 148 150 138 150 118" stroke="#E67852" stroke-width="8" stroke-linecap="round"/>
+    <path d="M149 100L133 113L149 126" stroke="#E67852" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="34" y="164" fill="#1F355A" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Rollback</text>
+    <text x="34" y="188" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">Remove imported effects and</text>
+    <text x="34" y="206" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="14">restore Host B to a prior state</text>
+  </g>
+
+  <g transform="translate(1152 184)" filter="url(#shadow)">
+    <rect width="168" height="190" rx="26" fill="url(#card)"/>
+    <circle cx="40" cy="44" r="22" fill="#183153"/>
+    <text x="33" y="51" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">5</text>
+    <rect x="36" y="82" width="92" height="60" rx="12" fill="#FFF4D8"/>
+    <path d="M56 98H108" stroke="#A47625" stroke-width="4" stroke-linecap="round"/>
+    <path d="M56 112H108" stroke="#A47625" stroke-width="4" stroke-linecap="round"/>
+    <path d="M56 126H92" stroke="#A47625" stroke-width="4" stroke-linecap="round"/>
+    <text x="28" y="164" fill="#1F355A" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Logged States</text>
+    <text x="28" y="188" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="13">Restore any journaled</text>
+    <text x="28" y="204" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="13">migration checkpoint</text>
+  </g>
+
+  <path d="M322 278H344" stroke="#5678A9" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M590 278H612" stroke="#5678A9" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M858 278H880" stroke="#5678A9" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M1126 278H1148" stroke="#5678A9" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g transform="translate(120 464)">
+    <rect width="1160" height="210" rx="30" fill="#FFFFFF" opacity="0.86"/>
+    <text x="38" y="56" fill="#20365A" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Why This Flow Matters</text>
+    <text x="38" y="94" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="18">Session history is not just chat text. It is project context, procedural memory, and machine-bound state.</text>
+    <text x="38" y="128" fill="#5A708F" font-family="Segoe UI, Arial, sans-serif" font-size="18">The workflow turns that state into a portable, auditable package with install, rollback, and checkpoint-aware recovery.</text>
+
+    <rect x="38" y="150" width="194" height="34" rx="17" fill="#E9F1FF"/>
+    <text x="58" y="173" fill="#355D97" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Team handoff</text>
+
+    <rect x="254" y="150" width="260" height="34" rx="17" fill="#EAF7EE"/>
+    <text x="274" y="173" fill="#2C7A56" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Personal session consolidation</text>
+
+    <rect x="536" y="150" width="196" height="34" rx="17" fill="#FFF1E3"/>
+    <text x="556" y="173" fill="#A9682C" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Hardware refresh</text>
+
+    <rect x="754" y="150" width="198" height="34" rx="17" fill="#F2EDFF"/>
+    <text x="774" y="173" fill="#6650A3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Context migration</text>
+
+    <rect x="974" y="150" width="152" height="34" rx="17" fill="#FFECEE"/>
+    <text x="994" y="173" fill="#B14C57" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Audit trail</text>
+  </g>
+</svg>

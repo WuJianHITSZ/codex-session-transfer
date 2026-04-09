@@ -1,0 +1,34 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#F6FFF8"/>
+  <circle cx="1082" cy="122" r="92" fill="#E3F7EB"/>
+  <circle cx="146" cy="598" r="116" fill="#E5ECFF"/>
+  <text x="72" y="94" fill="#1C355B" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Step 3. Trigger Install and Localization on Host B</text>
+  <text x="72" y="130" fill="#617693" font-family="Segoe UI, Arial, sans-serif" font-size="18">Use Codex Desktop on Host B to run the skill, copy the migration state, and localize machine-specific paths.</text>
+
+  <rect x="84" y="190" width="482" height="350" rx="30" fill="#FFFFFF"/>
+  <rect x="122" y="236" width="320" height="190" rx="18" fill="#273F69"/>
+  <rect x="142" y="256" width="280" height="150" rx="12" fill="#D7EAFF"/>
+  <rect x="166" y="288" width="232" height="28" rx="10" fill="#FFFFFF"/>
+  <rect x="166" y="330" width="190" height="20" rx="10" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="166" y="364" width="214" height="20" rx="10" fill="#FFFFFF" opacity="0.85"/>
+  <text x="138" y="474" fill="#243D66" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Codex Desktop on Host B</text>
+  <text x="138" y="502" fill="#657B97" font-family="Segoe UI, Arial, sans-serif" font-size="16">One prompt starts the install workflow.</text>
+
+  <path d="M594 364H712" stroke="#4D79B3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M688 338L742 364L688 390" stroke="#4D79B3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="742" y="192" width="372" height="352" rx="30" fill="#FFFFFF"/>
+  <rect x="786" y="236" width="280" height="74" rx="18" fill="#EAF7EE"/>
+  <path d="M814 272L836 292L878 248" stroke="#2D9F68" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="896" y="282" fill="#2D6F4D" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">skill installed</text>
+
+  <rect x="786" y="330" width="280" height="74" rx="18" fill="#E8F1FF"/>
+  <path d="M816 366H866" stroke="#4D79B3" stroke-width="8" stroke-linecap="round"/>
+  <path d="M894 348H1034" stroke="#4D79B3" stroke-width="6" stroke-linecap="round"/>
+  <text x="894" y="374" fill="#355D97" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">session state copied</text>
+
+  <rect x="786" y="424" width="280" height="74" rx="18" fill="#FFF3E3"/>
+  <path d="M820 460H860" stroke="#B97A2C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M838 442V478" stroke="#B97A2C" stroke-width="8" stroke-linecap="round"/>
+  <text x="894" y="468" fill="#9D6628" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">paths localized</text>
+</svg>
